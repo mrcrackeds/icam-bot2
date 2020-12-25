@@ -3472,7 +3472,7 @@ ${desc}`)
         case prefix+'bc': // KASIH CREDIT DONG KALO COPAS
             if (!isOwner) return icam.reply(from, `Perintah ini hanya untuk Owner Icam`, id)
                 bctxt = body.slice(4)
-                txtbc = `*「 ELAINA BROADCAST 」*\n\n${bctxt}`
+                txtbc = `*「 ICAM BROADCAST 」*\n\n${bctxt}`
                 const semuagrup = await icam.getAllChatIds();
                 if(quotedMsg && quotedMsg.type == 'image'){
                     const mediaData = await decryptMedia(quotedMsg)
