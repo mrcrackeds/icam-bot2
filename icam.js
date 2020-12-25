@@ -4136,7 +4136,7 @@ ${desc}`)
         case prefix+'help':
             icam.sendText(from, help)
             break
-        case prefix+'elainagroup':
+        case prefix+'icamgroup':
             icam.reply(from, `Link Group ICAM : https://chat.whatsapp.com/GqI1BaTYjupFtszKJDVfMn\nJangan Lupa Join Ya Kak ${pushname}`, id)
             break
         case prefix+'groupmenu':
