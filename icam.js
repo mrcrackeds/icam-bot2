@@ -2312,7 +2312,7 @@ ${desc}`)
             if(args[1] == undefined || args[2] == undefined) return
             if(args.length >= 2){
                 var codelang = args[1]
-                var texta = body.slice(11+codelang.length);
+                var icam = body.slice(11+codelang.length);
                 translatte(texta, {to: codelang}).then(res => {
                     icam.sendText(from,res.text);
                     limitAdd(serial)
