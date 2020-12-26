@@ -4137,7 +4137,7 @@ ${desc}`)
             icam.sendText(from, help)
             break
         case prefix+'icamgroup':
-            icam.reply(from, `Link Group ICAM : https://chat.whatsapp.com/GqI1BaTYjupFtszKJDVfMn\nJangan Lupa Join Ya Kak ${pushname}`, id)
+            icam.reply(from, `Link Group ICAM :\n https://chat.whatsapp.com/GqI1BaTYjupFtszKJDVfMn\n https://chat.whatsapp.com/ILRYOc7CTRh5YeSRYcaHBh\n https://chat.whatsapp.com/KXsclksFU477TlSWMyiGm7\n Jangan Lupa Join Ya Kak ${pushname}`, id)
             break
         case prefix+'groupmenu':
             icam.sendText(from, groupcmd)
