@@ -348,7 +348,7 @@ module.exports = icam = async (icam, message) => {
             }
         }
 
-        const tutor = 'https://i.ibb.co/Hp1XGbL/a4dec92b8922.jpg'
+        const tutor = 'https://i.ibb.co/VjJv17H/wait.jpg'
         const errorurl = 'https://steamuserimages-a.akamaihd.net/ugc/954087817129084207/5B7E46EE484181A676C02DFCAD48ECB1C74BC423/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false'
         const errorurl2 = 'https://steamuserimages-a.akamaihd.net/ugc/954087817129084207/5B7E46EE484181A676C02DFCAD48ECB1C74BC423/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false'
        
@@ -2776,7 +2776,7 @@ ${desc}`)
             const istalk = await slicedArgs.join(' ')
             console.log(istalk)
             try {
-            const istalk2 = await axios.get('https://icam-api.herokuapp.com/api/stalk?username=' + istalk)
+            const istalk2 = await axios.get('https://tobz-api.herokuapp.com/api/stalk?username=' + istalk)
             const { Biodata, Jumlah_Followers, Jumlah_Following, Profile_pic, Jumlah_Post, Name, Username } = istalk2.data
             const istalk3 = `*User Ditemukan!*
 
@@ -3344,7 +3344,7 @@ ${desc}`)
             if(cekumur(cekage)) return
             if (!isGroupMsg) return icam.reply(from, 'Perintah ini hanya bisa di gunakan dalam group!', id)
             if (isLimit(serial)) return icam.reply(from, `Maaf ${pushname}, Kuota Limit Kamu Sudah Habis, Ketik ${prefix}limit Untuk Mengecek Kuota Limit Kamu`, id)
-            const quotez2 = await axios.get('https://icam-api.herokuapp.com/api/randomquotes')
+            const quotez2 = await axios.get('https://tobz-api.herokuapp.com/api/randomquotes')
             icam.reply(from, `➸ *Quotes* : ${quotez2.data.quotes}\n➸ *Author* : ${quotez2.data.author}`, id)
             await limitAdd(serial)
             break
@@ -3366,7 +3366,7 @@ ${desc}`)
             if (isLimit(serial)) return icam.reply(from, `Maaf ${pushname}, Kuota Limit Kamu Sudah Habis, Ketik ${prefix}limit Untuk Mengecek Kuota Limit Kamu`, id)
             if (args.length === 1) return icam.reply(from, 'Kirim perintah *#chord [query]*, contoh *#chord aku bukan boneka*', id)
             const query__ = body.slice(7)
-            const chord = await axios.get('https://icam-api.herokuapp.com/api/chord?q='+ query__)
+            const chord = await axios.get('https://tobz-api.herokuapp.com/api/chord?q='+ query__)
             if (chord.data.error) return icam.reply(from, chord.data.error, id)
             icam.reply(from, chord.data.result, id)
             await limitAdd(serial)
@@ -3375,7 +3375,7 @@ ${desc}`)
             if(isReg(obj)) return
             if(cekumur(cekage)) return
             if (!isGroupMsg) return icam.reply(from, `Perintah ini hanya bisa di gunakan dalam group!`, id)
-            const listDaerah = await axios.get('https://icam-api.herokuapp.com/api/daerah')
+            const listDaerah = await axios.get('https://tobz-api.herokuapp.com/api/daerah')
             icam.reply(from, listDaerah.data.result, id)
             await limitAdd(serial)
             break
