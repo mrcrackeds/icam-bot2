@@ -12,6 +12,7 @@
 <a href="https://github.com/icammaci/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/icammaci/icam-bot2?color=red&style=flat-square"></a>
 <a href="https://github.com/icammaci/network/members"><img title="Forks" src="https://img.shields.io/github/forks/icammaci/icam-bot2?color=red&style=flat-square"></a>
 <a href="https://github.com/icammaci/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/icammaci/icam-bot2?label=Watchers&color=blue&style=flat-square"></a>
+ <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ficammaci%2Ficam-bot2&count_bg=%232396FF&title_bg=%23555555&icon=meteor.svg&icon_color=%23F5F9FF&title=visitor&edge_flat=false"/></a>
 </p>
 <p align='center'>
    <a href="https://twitter.com/mrcracked3"><img height="30" src="https://github.com/icammaci/icammaci/blob/main/twitter.png?raw=true"></a>&nbsp;&nbsp;
