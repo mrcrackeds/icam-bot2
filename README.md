@@ -34,7 +34,7 @@ ownerNumber = "6213xxxxxx@c.us"
 If you find some bugs please contact the WhatsApp number on Contact
 
 - [TELEGRAM](https://t.me/icammaci)
-- [WHATSAPP](https://wa.me/628978049825)
+- [WHATSAPP](https://wa.me/6285842748544)
 - [MY BOT](https://wa.me/16825029317)
 - [WHATSAPP GROUP](https://chat.whatsapp.com/KXsclksFU477TlSWMyiGm7)
 - [WHATSAPP GROUP](https://chat.whatsapp.com/GqI1BaTYjupFtszKJDVfMn)
@@ -44,7 +44,9 @@ If you find some bugs please contact the WhatsApp number on Contact
 Open setting.js then edit & paste it in YOUR_APIKEY
 - [VHTEAR](https://api.vhtear.com)
 - [MHANKBARBAR](https://mhankbarbars.herokuapp.com/api)
-- [BELI APIKEY DISINI](https://wa.me/6285842748544)
+- [BELI APIKEY](https://wa.me/6285842748544)
+- [BELI APIKEY](https://instagram.com/cracked_212)
+- [BELI APIKEY](https://t.me/icammaci)
 
 Apikey Location
 - [SETTING](https://github.com/icammaci/icam-bot2/blob/main/lib/database/setting.json)
