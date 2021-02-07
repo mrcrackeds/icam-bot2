@@ -24,7 +24,7 @@
 
 #### This script is open to anyone! If you want to add commands, please contribute / pull request! Buying and selling scripts is prohibited!
 - [Cara Penginstallan Bot](https://youtu.be/41Xj_Kg4DCM)
-- Change [ownerNumber](https://github.com/icammaci/icam-bot2/blob/df5caa20c74a1e76345a9664baa8dbc1b198da21/tobz.js#L248) in icam.js to be your number
+- Change [ownerNumber](https://github.com/icammaci/icam-bot2/blob/df5caa20c74a1e76345a9664baa8dbc1b198da21/icam.js#L248) in icam.js to be your number
 ownerNumber = "6213xxxxxx@c.us"
 - Change [adminNumber](https://github.com/icammaci/icam-bot2/blob/main/lib/database/admin.json#L1) in admin.json to be your number
 [] -> ["62813xxxxxx@c.us"]
