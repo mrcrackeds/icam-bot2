@@ -44,6 +44,7 @@ If you find some bugs please contact the WhatsApp number on Contact
 Open setting.js then edit & paste it in YOUR_APIKEY
 - [VHTEAR](https://api.vhtear.com)
 - [MHANKBARBAR](https://mhankbarbars.herokuapp.com/api)
+- [BELI APIKEY DISINI](https://wa.me/6285842748544)
 
 Apikey Location
 - [SETTING](https://github.com/icammaci/icam-bot2/blob/main/lib/database/setting.json)
